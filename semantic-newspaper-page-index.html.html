@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Osimen Reuben">
+    <meta name="description" content="this is an html-only semantically structured newspaper webpage, demonstrating the use of proper semantic elements to add meaning to the content of our webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="fav-icon.jpg" type="image.jpg">
+    <title>The Daily Chronicle</title>
+</head>
+<body>
+
+    <header>
+        <h1>The Daily Chronicle</h1>
+        <nav>
+            <ul>
+                <li><a href="#top-story">Top Story</a></li>
+                <li><a href="#latest">Latest News</a></li>
+                <li><a href="#tech">Technology</a></li>
+                <li><a href="#sports">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>       
+        <main>
+            
+            <!-- Lead breaking news / Top story section -->
+            <section id="top-story">
+
+                <figure>
+                    <img src="webpage-profile.jpg" alt="Delegates seated at a long table during an international conference" width="800" height="450">
+                    <figcaption>Delegates gathered together for negotiations</figcaption>
+                </figure>
+
+                <article>
+                    <h2>Global Climate Summit Reaches Landmark Accord</h2>
+                    <p><small>Published by Jane Doe on November 25, 2026</small></p>
+                    <p>Delegates from nearly 200 nations agreed on historic measures to reduce carbon emissions and accelerate renewable energy deployment over the next decade...</p>
+                </article>
+            </section>
+
+            <!-- Latest News Section -->
+            <section id="latest">
+                <h2>Latest News</h2>
+                
+                <article>
+                    <h3>Municipal Transit System Expands Suburban Lines</h3>
+                    <p>City officials announced three new routes designed to connect peripheral neighborhoods with downtown hubs starting next month.</p>
+                </article>
+
+                <article>
+                    <h3>Central Library Unveils Digitized Historical Archives</h3>
+                    <p>Over 50,000 historic manuscripts and photographs are now accessible to the public online for research and study.</p>
+                </article>
+            </section>
+
+            <!-- Technology Section -->
+            <section id="tech">
+                <h2>Technology</h2>
+                <figure>
+                    <img src="tech.jpg" alt="advancing technology in AI and robotics" width="800" height="450">
+                    <figcaption>Advancements in AI and robotics are shaping the future of technology</figcaption>
+                </figure>
+                <article>
+                    <h3>Next-Generation Microchips Reach New Efficiency Benchmarks</h3>
+                    <p>Engineers demonstrate a 40% reduction in power consumption with new 2-nanometer architecture tested in lab environments.</p>
+                </article>
+                
+                <!-- TODO: Add a second technology article here to balance section content -->
+            </section>
+
+            <!-- Sports Section -->
+            <section id="sports" aria-labelledby="sports-heading">
+                <h2 id="sports-heading">Sports</h2>
+                
+                <article>
+                    <h3>National Team Secures Championship Final Berth</h3>
+                    <p>A thrilling overtime goal sealed victory in yesterday's semifinal match, setting up a high-stakes championship final performance.</p>
+                </article>
+                
+                <!-- TODO: Add sports scores table using <table> for structural completeness -->
+            </section>
+
+        </main>
+
+        <!-- Sidebar containing content indirectly related to main stories -->
+        <aside aria-labelledby="most-read-heading">
+            <h2 id="most-read-heading">Most Read Stories</h2>
+            <ol>
+                <li><a href="#">Top 10 Tech Trends Reshaping 2027</a></li>
+                <li><a href="#">Local Bakery Wins International Culinary Award</a></li>
+                <li><a href="#">Understanding New Urban Housing Regulations</a></li>
+            </ol>
+        </aside>
+
+    </div>
+
+    <!-- Page footer with site meta details and contact information -->
+    <footer>
+        <address>
+            Contact us: <a href="mailto:reubbisco@gmail.com">reubbisco@gmail.com</a> | Phone: (+234) 9123043981
+        </address>
+        <p>&copy; 2026 The Daily Chronicle. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
